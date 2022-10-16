@@ -22,6 +22,7 @@ public class WebSecurity {
 	               .and()
 	               .authorizeHttpRequests()
 	               .antMatchers(HttpMethod.GET, "/images/**").permitAll()
+	               .antMatchers(HttpMethod.GET, "/style/**").permitAll()
 	               .antMatchers("/admin").hasRole("ADMIN")
 	               .antMatchers("/user").hasRole("USER")
 	               .anyRequest().authenticated()
