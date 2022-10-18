@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+	<link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+	<nav>
+		<label class="logo">Centro de Memórias - ETEJK</label>
+		<div class="spacebtn">
+			<button class="removecb" onclick="document.getElementById('id02').style.display='block'">Remover
+				Cadastro</button>
+			<button class="loginb" onclick="document.getElementById('id01').style.display='block'">Cadastrar</button>
+
+		</div>
+	</nav>
+
+	<div id="id01" class="modal">
+		<form class="modal-content animate" action="cadastrar" method="post">
+			<div class="container">
+				<div>
+					<span onclick="document.getElementById('id01').style.display='none'" class="span"
+						title="Fechar">&times;</span>
+				</div>
+				<div>
+					<label for="Name"><b>Nome</b></label>
+					<input class="Name" type="text" placeholder="Insira Nome" name="name" required>
+				</div>
+				<div>
+					<label for="User"><b>E-mail</b></label>
+					<input class="User" type="email" placeholder="Insira E-mail" name="user" required>
+				</div>
+				<div>
+					<label for "psw"><b>Senha</b></label>
+					<input class="psw" type="password" placeholder="Insira Senha" name="psw" required>
+				</div>
+				<div>
+					<label for "rpsw"></label>
+					<input class="rpsw" type="password" placeholder="Repetir Senha" name="rpsw" required>
+				</div>
+				<button type="submit" class="loginbtn">Cadastrar</button>
+			</div>
+			<div>
+				<button type="button" class="cancelbtn">Cancel</button>
+			</div>
+		</form>
+	</div>
+
+	<div id="id02" class="modal">
+		<form class="modal-content2 animate" th:object="${commandObject}" th:action="@{deletar}" th:method="delete">
+			<div>
+				<span onclick="document.getElementById('id02').style.display='none'" class="span2"
+					title="Fechar">&times;</span>
+			</div>
+			<div>
+				<label for="Id"><b>ID</b></label>
+				<input class="Id" type="text" placeholder="Insira ID" name="id_admin" required>
+			</div>
+			<div>
+				<label for="User"><b>E-mail</b></label>
+				<input class="User" type="email" placeholder="Insira E-mail" name="user" required>
+			</div>
+			<div>
+				<label for="psw"><b>Senha</b></label>
+				<input class="psw" type="password" placeholder="Insira Senha" name="psw" required>
+				<div>
+					<button id="deletar" type="submit" class="deletebtn">Deletar</button>
+				</div>
+			</div>
+		</form>
+	</div>
+
+	<div class="searchprebox">
+
+		<div class="scb">
+			<form class="searchbox">
+				<input class="searchtxt" type="text" name="" placeholder="Pesquisar">
+				<a class="searchbtn" href="#">
+					<img src="images/glass.svg" width="50%">
+					</img>
+				</a>
+			</form>
+		</div>
+
+	</div>
+
+	<div class="space">
+
+		<div class="memcontainer1">
+			<div class="memhead1">
+				Memória Principal
+			</div>
+			<button class="membtn1"></button>
+		</div>
+
+	</div>
+
+	<div class="gridcont">
+		<div class="memcontainer">
+			<div class="memhead">
+				Memoria #
+			</div>
+			<button class="membtn"></button>
+		</div>
+		<div class="memcontainer">
+			<div class="memhead">
+				Memoria #
+			</div>
+			<button class="membtn"></button>
+		</div>
+		<div class="memcontainer">
+			<div class="memhead">
+				Memoria #
+			</div>
+			<button class="membtn"></button>
+		</div>
+		<div class="memcontainer">
+			<div class="memhead">
+				Memoria #
+			</div>
+			<button class="membtn"></button>
+		</div>
+		<div class="memcontainer">
+			<div class="memhead">
+				Memoria #
+			</div>
+			<button class="membtn"></button>
+		</div>
+		<div class="memcontainer">
+			<div class="memhead">
+				Memoria #
+			</div>
+			<button class="membtn"></button>
+		</div>
+		<div class="memcontainer">
+			<div class="memhead">
+				Memoria #
+			</div>
+			<button class="membtn"></button>
+		</div>
+		<div class="memcontainer">
+			<div class="memhead">
+				Memoria #
+			</div>
+			<button class="membtn"></button>
+		</div>
+		<div class="memcontainer">
+			<div class="memhead">
+				Memoria #
+			</div>
+			<button class="membtn"></button>
+		</div>
+		<div class="memcontainer">
+			<div class="memhead">
+				Memoria #
+			</div>
+			<button class="membtn"></button>
+		</div>
+		<div class="memcontainer">
+			<div class="memhead">
+				Memoria #
+			</div>
+			<button class="membtn"></button>
+		</div>
+		<div class="memcontainer">
+			<div class="memhead">
+				Memoria #
+			</div>
+			<button class="membtn"></button>
+		</div>
+	</div>
+</body>
+
+</html>
