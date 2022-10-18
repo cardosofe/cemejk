@@ -1,8 +1,11 @@
 package com.cemejk.entities;
 
 import java.io.Serializable;
+<<<<<<< HEAD
 import java.sql.Date;
 import java.time.LocalDate;
+=======
+>>>>>>> 0893d6c87f0ab21ae0187c0966125ac182b81534
 import java.util.Collection;
 
 import javax.persistence.Entity;
@@ -22,6 +25,7 @@ public class Administrador implements UserDetails, Serializable{
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id_admin;
+<<<<<<< HEAD
 	private String nome, email;
 	private String senha;
 	private LocalDate data_criacao;
@@ -34,6 +38,11 @@ public class Administrador implements UserDetails, Serializable{
 		this.data_criacao = data_criacao;
 	}
 
+=======
+	private String nome, funcaoEscolar, email;
+	private String senha;
+	
+>>>>>>> 0893d6c87f0ab21ae0187c0966125ac182b81534
 	public Administrador() {
 
 	}
@@ -54,6 +63,17 @@ public class Administrador implements UserDetails, Serializable{
 		this.nome = nome;
 	}
 
+<<<<<<< HEAD
+=======
+	public String getFuncaoEscolar() {
+		return funcaoEscolar;
+	}
+
+	public void setFuncaoEscolar(String funcaoEscolar) {
+		this.funcaoEscolar = funcaoEscolar;
+	}
+
+>>>>>>> 0893d6c87f0ab21ae0187c0966125ac182b81534
 	public String getEmail() {
 		return email;
 	}
@@ -69,6 +89,7 @@ public class Administrador implements UserDetails, Serializable{
 	public void setSenha(String senha) {
 		this.senha = senha;
 	}
+<<<<<<< HEAD
 	
 	public LocalDate getData_criacao() {
 		return data_criacao;
@@ -81,6 +102,12 @@ public class Administrador implements UserDetails, Serializable{
 	@Override
 	public String toString() {
 		return "Employee [id= " + id_admin + ", Nome= " + nome + "Email= "
+=======
+
+	@Override
+	public String toString() {
+		return "Employee [id= " + id_admin + ", Nome= " + nome + ", Função Escolar= " + funcaoEscolar + ", email= "
+>>>>>>> 0893d6c87f0ab21ae0187c0966125ac182b81534
 				+ email + "]";
 	}
 

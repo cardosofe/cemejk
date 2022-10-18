@@ -7,6 +7,7 @@
 
 }
 
+<<<<<<< HEAD
 .popup{
 	position: relative;
 	display: inline-block;
@@ -55,6 +56,8 @@
 	to {opacity: 1;}
 }
 
+=======
+>>>>>>> 0893d6c87f0ab21ae0187c0966125ac182b81534
 .container {
     position: relative;
 
@@ -78,6 +81,7 @@
     box-sizing: border-box;
     border-radius: 9px;
   }
+<<<<<<< HEAD
 	.Name {
 	width: 100%;
     padding: 12px 20px;
@@ -100,6 +104,9 @@
   }
 	
 	
+=======
+
+>>>>>>> 0893d6c87f0ab21ae0187c0966125ac182b81534
   .User {
     width: 100%;
     padding: 12px 20px;
@@ -110,6 +117,15 @@
     border-radius: 9px;
   }
   
+<<<<<<< HEAD
+=======
+  .span {
+    position: absolute;
+    right: 0;
+    margin: -12px -10px 0 0px;
+
+  }
+>>>>>>> 0893d6c87f0ab21ae0187c0966125ac182b81534
   .modal {
     display: none;
     position: fixed; 
@@ -128,8 +144,13 @@
     background-color: #fefefe;
     margin: 5% auto 15% auto; 
     border: 1px solid #888;
+<<<<<<< HEAD
     width: 300px; 
     height: 400px;
+=======
+    width: 200px; 
+    height: 330px;
+>>>>>>> 0893d6c87f0ab21ae0187c0966125ac182b81534
     border: 2px solid #ccc;
     border-radius: 10px;
  }
@@ -139,11 +160,16 @@
     margin: 5% auto 15% auto; 
     border: 1px solid #888;
     width: 500px; 
+<<<<<<< HEAD
     height: 300px;
+=======
+    height: 440px;
+>>>>>>> 0893d6c87f0ab21ae0187c0966125ac182b81534
     border: 2px solid #ccc;
     border-radius: 10px;
 
   }
+<<<<<<< HEAD
   .modal-content3 {
     background-color: #fefefe;
     margin: 5% auto 15% auto; 
@@ -180,6 +206,18 @@
   
   .span2:hover,
   .span2:focus {
+=======
+
+  .span {
+    right: 10px;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;   
+}
+  
+  .span:hover,
+  .span:focus {
+>>>>>>> 0893d6c87f0ab21ae0187c0966125ac182b81534
     color: red;
     cursor: pointer;
   }
@@ -218,7 +256,11 @@
 
                } 
 
+<<<<<<< HEAD
           .loginbtn{
+=======
+        .loginbtn{
+>>>>>>> 0893d6c87f0ab21ae0187c0966125ac182b81534
                 width: 180px;
                 padding: 10px 18px;
                 background-color: #4CAF50;
@@ -230,20 +272,32 @@
                 font-size: 16px;
                 border-radius: 10px;
                 cursor: pointer;
+<<<<<<< HEAD
                 margin: auto 20%;
         }
         .cancelbtn {
                 width: 180px;
                 height: 35px;
+=======
+                margin: 15px 25px 0 10px;
+        }
+        .cancelbtn {
+                width: 180px;
+>>>>>>> 0893d6c87f0ab21ae0187c0966125ac182b81534
                 padding: 10px 18px;
                 background-color: rgba(190, 20, 20);
                 border: none;
                 color: white;
+<<<<<<< HEAD
+=======
+                height: 35px;
+>>>>>>> 0893d6c87f0ab21ae0187c0966125ac182b81534
                 text-align: center;
                 text-decoration: none;
                 font-size: 16px;
                 border-radius: 10px;
                 cursor: pointer;
+<<<<<<< HEAD
                 margin: 5px auto auto 20% ;
         }
         .deletebtn {
@@ -259,6 +313,9 @@
                 border-radius: 10px;
                 cursor: pointer;
                 margin: 5px auto auto 30% ;
+=======
+                margin: 15px 25px 0 10px;
+>>>>>>> 0893d6c87f0ab21ae0187c0966125ac182b81534
         }
         .gridcont {
             justify-content: center;

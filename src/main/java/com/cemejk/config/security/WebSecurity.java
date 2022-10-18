@@ -1,7 +1,13 @@
 package com.cemejk.config.security;
 
 import org.springframework.context.annotation.Bean;
+<<<<<<< HEAD
 import org.springframework.http.HttpMethod;
+=======
+import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpMethod;
+import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
+>>>>>>> 0893d6c87f0ab21ae0187c0966125ac182b81534
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;

@@ -37,6 +37,7 @@ public class AdminServiceImpl implements UserDetailsService {
 		adminRepository.save(admin);
 	}
 
+<<<<<<< HEAD
 	public Optional<Administrador> findById(Long id_admin) {
 
 		return adminRepository.findById(id_admin);
@@ -44,6 +45,15 @@ public class AdminServiceImpl implements UserDetailsService {
 
 	public void deleteById(Long id_admin) {
 		adminRepository.deleteById(id_admin);
+=======
+	public Optional<Administrador> findById(Long id) {
+
+		return adminRepository.findById(id);
+	}
+
+	public void delete(Long id) {
+		adminRepository.deleteById(id);
+>>>>>>> 0893d6c87f0ab21ae0187c0966125ac182b81534
 
 	}
 

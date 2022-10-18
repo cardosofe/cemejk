@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<<<<<<< HEAD
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
@@ -173,4 +174,171 @@
 	</div>
 </body>
 
+=======
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        
+        <style>
+        </style>
+    </head>
+    <body>
+
+        <!--Barra de cima-->
+        <nav>   
+            <label class="logo">Centro de Memorias - ETEJK</label>
+                <div class="spacebtn">
+                <button class="removecb" onclick="document.getElementById('id02').style.display='block'">Remover Cadastro</button>
+            <button class="loginb" onclick="document.getElementById('id01').style.display='block'"">Cadastrar</button>
+
+        </div>          
+    </nav>
+
+        <!--modal do cadastro-->
+
+            <div id="id01" class="modal">
+
+                <form class="modal-content animate" action="/action_page.php" method="post"> 
+            <div class="container">
+                <div>
+                    <span onclick="document.getElementById('id01').style.display='none'" class="span" title="Fechar">&times;</span>
+                </div>
+                <div>
+                    <label for="User"><b>E-mail</b></label>
+                    <input class="User" type="email" placeholder="Insira E-mail" name="User" required>
+                </div>
+                <div>
+                    <label for "psw"><b>Senha</b></label>
+                    <input class="psw" type="password" placeholder="Insira Senha" name="psw" required>
+                </div>
+                <div>
+                    <label for "rpsw"></label>
+                    <input class="rpsw" type="password" placeholder="Repetir Senha" name="rpsw" required>
+                </div>
+                <div>
+                    <button type="submit" class="loginbtn">Cadastrar</button>
+                </div>
+                <div>
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn" >Cancel</button>
+                </div>
+     </div>
+       </form>
+          </div>
+
+          <!--modal para remover cadastro-->
+
+          <div id="id02" class="modal">
+            <form class="modal-content2 animate" action="/action_page.php" method="post"> 
+                <div>
+                    <span onclick="document.getElementById('id02').style.display='none'" class="span" title="Fechar">&times;</span>
+                </div>
+        </form>
+        </div> 
+
+        <!--caixa de pesquisa-->
+
+          <div class="searchprebox">
+
+            <div class="scb">
+                <form class="searchbox">
+            <input class="searchtxt" type="text" name="" placeholder="Pesquisar">
+            <a class="searchbtn" href="#">
+                <img src="glass.svg" width="50%">
+                </img>
+            </a>
+            </form>
+        </div>
+
+        </div>
+        
+        <!--memoria principal-->
+
+          <div class="space">
+
+          <div class="memcontainer1">
+            <div class="memhead1">
+            Memoria Principal
+            </div>
+            <button class="membtn1"></button>
+        </div>
+        
+        </div>
+
+        <!--memorias-->
+
+        <div class="gridcont">
+            <div class="memcontainer">
+                <div class="memhead">
+                Memoria #
+                </div>
+                <button class="membtn"></button>
+            </div>
+            <div class="memcontainer">
+                <div class="memhead">
+                Memoria #
+                </div>
+                <button class="membtn"></button>
+            </div>
+            <div class="memcontainer">
+                <div class="memhead">
+                Memoria #
+                </div>
+                <button class="membtn"></button>
+            </div>
+            <div class="memcontainer">
+                <div class="memhead">
+                Memoria #
+                </div>
+                <button class="membtn"></button>
+            </div>
+            <div class="memcontainer">
+                <div class="memhead">
+                Memoria #
+                </div>
+                <button class="membtn"></button>
+            </div>
+            <div class="memcontainer">
+                <div class="memhead">
+                Memoria #
+                </div>
+                <button class="membtn"></button>
+            </div>
+            <div class="memcontainer">
+                <div class="memhead">
+                Memoria #
+                </div>
+                <button class="membtn"></button>
+            </div>
+            <div class="memcontainer">
+                <div class="memhead">
+                Memoria #
+                </div>
+                <button class="membtn"></button>
+            </div>
+            <div class="memcontainer">
+                <div class="memhead">
+                Memoria #
+                </div>
+                <button class="membtn"></button>
+            </div>            <div class="memcontainer">
+                <div class="memhead">
+                Memoria #
+                </div>
+                <button class="membtn"></button>
+            </div>
+            <div class="memcontainer">
+                <div class="memhead">
+                Memoria #
+                </div>
+                <button class="membtn"></button>
+            </div>
+            <div class="memcontainer">
+                <div class="memhead">
+                Memoria #
+                </div>
+                <button class="membtn"></button>
+            </div>
+            </div>
+    </body>
+>>>>>>> 0893d6c87f0ab21ae0187c0966125ac182b81534
 </html>
